@@ -1,0 +1,26 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 1.2;
+    font-family: var(--font-family-all-content,'PT Sans', Sans);
+}
+
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    width: 60em;
+    padding: 1rem;
+}
+
+header p , h1{
+    text-align: center;
+}
+
+body h1, h2, h3, h4 {
+    font-family: var(--font-family-headings,'PT Serif', serif);
+    padding: 1rem 0rem;
+}

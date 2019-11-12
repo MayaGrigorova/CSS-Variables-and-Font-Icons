@@ -1,0 +1,33 @@
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 50em;
+    padding: 1rem;
+}
+
+body h1 {
+    font-size: var(--fonts-h1-30px, 32px);
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0.6rem;
+}
+
+body h3 {
+    font-size: var(--fonts-h3-20px, 22px);
+    font-style: italic;
+    padding: 0.6rem;
+}
+
+body p {
+    font-size: var(--fonts-p-16px, 18px);
+    padding: 0.6rem;
+}

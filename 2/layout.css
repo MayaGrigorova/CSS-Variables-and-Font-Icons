@@ -1,0 +1,55 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 1;
+    font-family: var(--font-family-all-content,'PT Sans', Sans);
+}
+
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    width: 50em;
+    padding: 1rem;
+}
+
+section {
+    border: 1px solid #FFC701;
+    border-radius: 0.4em;
+    padding: 0.5em;
+}
+
+section ul {
+    display: flex;
+}
+
+section li {
+    list-style: none;
+}
+
+body h2,
+p {
+    color: var(--primary-color, #275468);
+    padding: 1rem;
+}
+
+body button {
+    padding: 0.5rem 0.8rem;
+    font-size: bold;
+    border: 2px solid;
+    border-radius: 0.5em;
+    margin: 1rem;
+    background: var(--yellow-color, #FFC701);
+    color: var(--white-color, #ffffff);
+}
+
+body button:hover {
+    padding: 0.5rem 0.8rem;
+    border: none;
+    margin: 1rem;
+    background: var(--primary-color, #275468);
+    color: var(--yellow-color, #FFC701);
+}
